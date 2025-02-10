@@ -8,21 +8,19 @@ The Automatic Selfie Application captures selfies automatically when a user’s 
 ## Features
 - **Real-time Face Detection**: Utilizes Haar cascades to detect and track faces.
 - **Smile Detection**: Identifies smiles within detected faces using Haar cascades.
-- **Hand Gesture Detection**: Uses MediaPipe Hands for hand tracking and gesture recognition.
 - **Automatic Capture**: Captures selfies only when all three conditions (face, smile, hand gesture) are detected simultaneously.
 - **Cross-Platform Compatibility**: Works across various platforms and devices equipped with a camera.
 
 ## Technologies Used
 - **Python**: Programming language.
 - **OpenCV**: Library for face and smile detection, image processing, and video capture.
-- **MediaPipe**: Provides hand tracking and gesture recognition capabilities.
 - **Haar Cascades**: Pre-trained models for face and smile detection.
 - **tkinter**: Basic GUI framework for displaying camera feed and captured selfies.
 
 ## Installation
 **Install Dependencies:**
    ```
-   pip install opencv-python mediapipe
+   pip install opencv-python
    ```
 
 ## Usage
@@ -43,7 +41,6 @@ Acknowledgements
 ----------------
 
 * **OpenCV**: Used for face and smile detection, image processing, and video capture.
-* **MediaPipe**: Provides hand tracking and gesture recognition capabilities.
 * **Python Community**: Tutorials, forums, and resources for troubleshooting and learning.
 * **Previous Projects**: Inspiration and best practices.
 * **GitHub and Git**: Version control and collaboration tools.
